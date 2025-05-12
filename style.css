@@ -1,0 +1,69 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff9f5;
+    color: #333;
+}
+header{
+    background-color: #6d4c41;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+nav a{
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+main{
+    padding: 2rem;
+}
+h2{
+    margin-top: 2rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5rem;
+}
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+.product{
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.product img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.product h3{
+    font-size: 1.2rem;
+    margin: 10px;
+}
+.product p{
+    font-size: 1rem;
+    margin: 5px 0;
+}
+.product a{
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #8d6e63;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+}
+footer{
+    text-align: center;
+    background-color: #eee;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
